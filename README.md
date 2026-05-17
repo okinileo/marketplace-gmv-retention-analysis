@@ -255,7 +255,7 @@ jupyter notebook
 
 # Author
 
-Leonardo Bernardo
+Leonardo Ferreira
 
 Aspiring Data Scientist focused on:
 - marketplace analytics
