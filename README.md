@@ -97,7 +97,7 @@ The project integrates:
 
 Tracks the evolution of marketplace GMV, order volume, and average order value over time.
 
-![Marketplace Growth](images/monthly_growth.png)
+![Marketplace Growth](images/monthly_gmv.png)
 
 ---
 
@@ -121,7 +121,7 @@ Marketplace GMV is heavily concentrated among high-value customers.
 
 A relatively small group of sellers drives most marketplace GMV.
 
-![Seller Analysis](images/seller_analysis.png)
+![Seller Analysis](images/pareto_curves.png)
 
 ---
 
