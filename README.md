@@ -236,7 +236,7 @@ Most important predictors:
 Clone the repository:
 
 ```bash
-git clone https://github.com/okinileo/ecommerce-olist.git
+git clone https://github.com/okinileo/marketplace-gmv-retention-analysis.git
 ```
 
 Install dependencies:
