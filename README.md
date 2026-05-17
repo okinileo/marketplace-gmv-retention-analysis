@@ -65,15 +65,64 @@ The project integrates:
 # Project Structure
 
 ```plaintext
+Executive Summary
+   - Main Findings
+
 1. Business Understanding
-2. Executive Summary
-3. Marketplace Growth Analysis
-4. Customer Retention Analysis
+   - Core business questions
+   - Working hypotheses
+
+Business Objectives
+
+2. Environment Setup
+
+3. Data Preparation
+   - 3.1 Data Integration and Enrichment
+   - 3.2 Order-Level Feature Engineering
+       - 3.2.1 Delivery and Time-Based Features
+       - 3.2.2 Item-Level Commercial and Logistics Features
+       - 3.2.3 Geographic Distance Features
+       - 3.2.4 Order-Level Aggregation
+   - 3.3 Customer-Level Aggregation
+   - 3.4 Marketplace KPI Tables
+       - 3.4.1 Monthly Growth Metrics
+       - 3.4.2 Customer Acquisition and Repeat Mix
+       - 3.4.3 Category and Seller KPI Tables
+       - 3.4.4 Geographic, Route, and Distance Summaries
+       - 3.4.5 Cohort Retention Table
+
+4. Exploratory Data Analysis
+   - 4.1 Marketplace Growth Over Time
+   - 4.2 Customer Acquisition vs Repeat Behavior
+   - 4.3 Category Scale, Concentration, and Satisfaction
+   - 4.4 Seller Concentration and Operational Quality
+   - 4.5 Logistics Performance and Customer Satisfaction
+   - 4.6 Regional GMV and Route Economics
+   - 4.7 Cohort Retention Over Time
+
 5. Customer Lifetime Value (LTV)
-6. Experimentation (Simulated A/B Test)
-7. Marketplace Strategy Analysis
-8. Predictive Modeling (GMV Prediction)
-9. Strategic Recommendations
+   - 5.1 Probabilistic Customer Lifetime Modeling
+
+6. Experimentation: Simulated A/B Test
+   - 6.1 Experiment Design and Eligible Population
+   - 6.2 Treatment Assignment and Simulated Uplift
+   - 6.3 Financial Outcomes and Statistical Testing
+   - 6.4 Experiment Results Visualization
+
+7. Product and Business Strategy
+   - 7.1 Marketplace Value Concentration
+   - 7.2 Category Strategy by Customer Value Segment
+
+8. Predictive Modeling: GMV Prediction
+   - Model Dataset Preparation
+   - Model Training and Evaluation
+   - Model Interpretation and Feature Importance
+
+9. Strategic Recommendations and Business Implications
+   - Key Findings
+   - Strategic Recommendations
+   - Trade-Offs and Limitations
+   - Next Steps
 ```
 
 ---
@@ -206,7 +255,7 @@ jupyter notebook
 
 # Author
 
-Leonardo Bernardo
+Leonardo Ferreira
 
 Aspiring Data Scientist focused on:
 - marketplace analytics
