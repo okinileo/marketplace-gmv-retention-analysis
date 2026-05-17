@@ -129,7 +129,7 @@ A relatively small group of sellers drives most marketplace GMV.
 
 Evaluates whether a discount incentive can improve customer conversion and downstream GMV performance.
 
-![AB Test](images/ab_test.png)
+![AB Test](images/ab_test_results.png)
 
 ---
 
