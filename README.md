@@ -1,4 +1,4 @@
-# Brazilian E-Commerce Marketplace Analysis
+# Marketplace GMV and Retention Analysis
 
 End-to-end marketplace analytics project using the Olist Brazilian e-commerce dataset.
 
