@@ -3,11 +3,11 @@
 End-to-end marketplace analytics project using the Olist Brazilian e-commerce dataset.
 
 This project combines:
-- exploratory data analysis,
-- customer behavior analytics,
-- retention analysis,
-- experimentation,
-- marketplace strategy,
+- exploratory data analysis
+- customer behavior analytics
+- retention analysis
+- experimentation
+- marketplace strategy
 - and predictive modeling
 
 to investigate the main drivers of marketplace GMV growth, retention, seller concentration, and operational performance.
