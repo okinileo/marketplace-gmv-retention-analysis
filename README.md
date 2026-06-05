@@ -1,6 +1,6 @@
 # Brazilian E-Commerce Marketplace Analysis
 
-End-to-end marketplace analytics project using the Olist Brazilian e-commerce dataset.
+This is an end-to-end project that I developed using the Olist Brazilian e-commerce dataset.
 
 This project combines:
 - exploratory data analysis,
@@ -154,8 +154,8 @@ Local files such as `.env`, `.vscode/`, and SQLTools session files are ignored t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/okinileo/ecommerce-olist.git
-cd ecommerce-olist
+git clone https://github.com/okinileo/marketplace-gmv-retention-analysis.git
+cd marketplace-gmv-retention-analysis
 ```
 
 ### 2. Install dependencies
@@ -436,7 +436,7 @@ The model should be interpreted as a practical forecasting aid for GMV banding a
 Clone the repository:
 
 ```bash
-git clone https://github.com/okinileo/ecommerce-olist.git
+git clone https://github.com/okinileo/marketplace-gmv-retention-analysis.git
 ```
 
 Install dependencies:
@@ -457,7 +457,7 @@ jupyter notebook
 
 Leonardo Ferreira
 
-Aspiring Data Scientist focused on:
+Data Scientist focused on:
 - marketplace analytics
 - customer analytics
 - retention analysis
