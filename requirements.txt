@@ -7,3 +7,6 @@ scipy
 lifetimes
 jupyter
 ipython
+python-dotenv
+psycopg2-binary
+SQLAlchemy
