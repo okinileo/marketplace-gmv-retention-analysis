@@ -1,6 +1,6 @@
 # Brazilian E-Commerce Marketplace Analysis
 
-End-to-end marketplace analytics project using the Olist Brazilian e-commerce dataset.
+This is an end-to-end project that I developed using the Olist Brazilian e-commerce dataset.
 
 This project combines:
 - exploratory data analysis,
