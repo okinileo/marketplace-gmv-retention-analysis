@@ -118,9 +118,9 @@ The project is organized into a reproducible SQL + Python workflow:
 │   └── product_category_name_translation.csv
 │
 ├── sql/
-│   ├── 01_create_database.sql
-│   ├── 02_create_tables.sql
-│   ├── 03_create_views.sql
+│   ├── 01_database.sql
+│   ├── 02_tables.sql
+│   ├── 03_views.sql
 │   └── 04_validation_queries.sql
 │
 ├── .gitignore
@@ -170,7 +170,7 @@ Create a `.env` file in the project root:
 
 ```env
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_password_here
+POSTGRES_PASSWORD=password
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 POSTGRES_DB=olist_marketplace
@@ -183,7 +183,7 @@ Do not commit this file to GitHub.
 Run this file connected to the default `postgres` database:
 
 ```text
-sql/01_create_database.sql
+sql/01_database.sql
 ```
 
 ### 5. Create raw tables
@@ -191,7 +191,7 @@ sql/01_create_database.sql
 Connect to the `olist_marketplace` database and run:
 
 ```text
-sql/02_create_tables.sql
+sql/02_tables.sql
 ```
 
 ### 6. Import the CSV files
@@ -209,7 +209,7 @@ This notebook loads the CSV files from `olist_data/` into PostgreSQL.
 After importing the data, run:
 
 ```text
-sql/03_create_views.sql
+sql/03_views.sql
 ```
 
 ### 8. Validate the database
