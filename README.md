@@ -1,8 +1,16 @@
-# Olist Marketplace Growth, Retention, and Customer Value Strategy
+# Brazilian E-Commerce Marketplace Analysis
 
-This is an end-to-end project that I developed using the Olist Brazilian e-commerce dataset.
+End-to-end marketplace analytics project using the Olist Brazilian e-commerce dataset.
 
-This project combines **PostgreSQL**, **Python**, exploratory analysis, customer analytics, simulated experimentation, business strategy, and predictive modeling to understand marketplace GMV growth, retention behavior, seller concentration, logistics performance, and customer value distribution.
+This project combines:
+- exploratory data analysis,
+- customer behavior analytics,
+- retention analysis,
+- experimentation,
+- marketplace strategy,
+- and predictive modeling
+
+to investigate the main drivers of marketplace GMV growth, retention, seller concentration, and operational performance.
 
 ---
 
@@ -423,22 +431,33 @@ The model should be interpreted as a practical forecasting aid for GMV banding a
 
 ---
 
-## Limitations
+# How to Run
 
-- The dataset is historical and observational.
-- The simulated A/B test is not causal evidence from a live randomized experiment.
-- GMV is used as a transaction-volume proxy, not actual platform revenue.
-- The dataset does not include contribution margin, commission rates, customer acquisition cost, ad spend, inventory cost, or operational costs.
-- Predictive modeling results should be interpreted as directional and operational, not as precise financial forecasting.
+Clone the repository:
+
+```bash
+git clone https://github.com/okinileo/ecommerce-olist.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open the notebook:
+
+```bash
+jupyter notebook
+```
 
 ---
 
-## Author
+# Author
 
-**Leonardo Ferreira**
+Leonardo Ferreira
 
- Data Scientist focused on:
-
+Aspiring Data Scientist focused on:
 - marketplace analytics
 - customer analytics
 - retention analysis
